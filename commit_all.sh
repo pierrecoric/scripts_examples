@@ -9,6 +9,7 @@ if [ "$ans" = "y" ]; then
     git add -A
     git commit -a -m msg
     git status
+    git push -u origin main
 else 
     echo "oh, ok."
 fi
