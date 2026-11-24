@@ -1,0 +1,9 @@
+{
+    "scripts": {
+        "fun": "banner -w 60 FUN",
+        "is-misia-the-best": "bash print_banner.sh",
+        "create-python": "bash populate_python.sh",
+        "run-python": "python3 a_python_script.py",
+        "commit-all": "bash commit_all.sh"
+    }
+}
