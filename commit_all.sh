@@ -13,6 +13,3 @@ if [ "$ans" = "y" ]; then
 else 
     echo "oh, ok."
 fi
-
-
-
