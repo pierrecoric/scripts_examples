@@ -7,7 +7,7 @@ if [ "$ans" = "y" ]; then
     echo "commit message"
     read msg
     git add -A
-    git commit -a -m msg
+    git commit -a -m $msg
     git status
     git push -u origin main
 else 
