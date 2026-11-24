@@ -8,6 +8,7 @@ if [ "$ans" = "y" ]; then
     read msg
     git add -A
     git commit -a -m msg
+    git status
 else 
     echo "oh, ok."
 fi
